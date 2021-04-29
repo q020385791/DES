@@ -29,9 +29,7 @@ namespace DESC
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.txtInput = new System.Windows.Forms.TextBox();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.txtResult = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,12 +43,6 @@ namespace DESC
             this.txtInput.Name = "txtInput";
             this.txtInput.Size = new System.Drawing.Size(237, 29);
             this.txtInput.TabIndex = 0;
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // txtResult
             // 
@@ -118,7 +110,6 @@ namespace DESC
         #endregion
 
         private System.Windows.Forms.TextBox txtInput;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.TextBox txtResult;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
