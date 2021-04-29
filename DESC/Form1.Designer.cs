@@ -41,7 +41,7 @@ namespace DESC
             // 
             // txtInput
             // 
-            this.txtInput.Location = new System.Drawing.Point(88, 35);
+            this.txtInput.Location = new System.Drawing.Point(67, 34);
             this.txtInput.Name = "txtInput";
             this.txtInput.Size = new System.Drawing.Size(237, 29);
             this.txtInput.TabIndex = 0;
@@ -54,7 +54,7 @@ namespace DESC
             // 
             // txtResult
             // 
-            this.txtResult.Location = new System.Drawing.Point(88, 103);
+            this.txtResult.Location = new System.Drawing.Point(67, 102);
             this.txtResult.Name = "txtResult";
             this.txtResult.Size = new System.Drawing.Size(237, 29);
             this.txtResult.TabIndex = 2;
@@ -62,7 +62,7 @@ namespace DESC
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(38, 46);
+            this.label1.Location = new System.Drawing.Point(17, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 18);
             this.label1.TabIndex = 3;
@@ -71,7 +71,7 @@ namespace DESC
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(38, 114);
+            this.label2.Location = new System.Drawing.Point(17, 113);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 18);
             this.label2.TabIndex = 4;
@@ -79,7 +79,7 @@ namespace DESC
             // 
             // btnEncrypt
             // 
-            this.btnEncrypt.Location = new System.Drawing.Point(104, 185);
+            this.btnEncrypt.Location = new System.Drawing.Point(42, 184);
             this.btnEncrypt.Name = "btnEncrypt";
             this.btnEncrypt.Size = new System.Drawing.Size(84, 32);
             this.btnEncrypt.TabIndex = 5;
@@ -89,7 +89,7 @@ namespace DESC
             // 
             // btnDecrypt
             // 
-            this.btnDecrypt.Location = new System.Drawing.Point(238, 185);
+            this.btnDecrypt.Location = new System.Drawing.Point(194, 184);
             this.btnDecrypt.Name = "btnDecrypt";
             this.btnDecrypt.Size = new System.Drawing.Size(78, 32);
             this.btnDecrypt.TabIndex = 6;
@@ -101,7 +101,7 @@ namespace DESC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(414, 247);
+            this.ClientSize = new System.Drawing.Size(326, 247);
             this.Controls.Add(this.btnDecrypt);
             this.Controls.Add(this.btnEncrypt);
             this.Controls.Add(this.label2);
